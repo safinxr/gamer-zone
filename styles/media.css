@@ -1,0 +1,22 @@
+/* Phone view */
+@media only screen and (max-width:576px){
+    nav{
+        padding: 40px 20px;
+        flex-direction: column; 
+        box-shadow: none;
+
+    }
+    .nav-link ul{
+        flex-direction: column;
+    }
+    .nav-link li{
+        margin-top: 20px;
+    }
+}
+
+/* Tablet view */
+@media only screen and (min-width:577px) and (max-width:992px){
+    nav{
+        padding:10px 20px;
+    }
+}
