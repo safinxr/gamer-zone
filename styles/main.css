@@ -67,3 +67,73 @@ nav{
 .follow-button img{
     transform: scale(0.7);
 }
+
+/* <!-- ===================Top banner=================== --> */
+
+.top-banner-container{
+    background-image: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-size:52%;
+}
+.top-banner, .top-banner2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px;
+    
+}
+.top-banner-img{
+    width: 50%;
+}
+.banner-texts h3{
+    font-size: 2.5rem;
+}
+.banner-texts h1{
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+.banner-text-img{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
+.banner-text-img p{
+    font-size: 1.15rem;
+}
+.banner-text-img {
+    margin:10px 0px;
+}
+.banner-button{
+    margin-top: 30px;
+}
+
+.primary-button{
+    border: none;
+    background-color:#F948B2 ;
+    padding: 12px 35px;
+    border-radius: 40px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+.blue-button{
+    background-color:#4EC5F7 ;
+    margin-left: 10px;
+}
+
+/* ============================================== */
+.top-banner-container2{
+    background-color: #FBF6FC;
+}
+.top-banner2{
+    padding: 100px 0;
+}
+.banner2-p{
+    text-align: justify;
+    margin: 20px 0;
+}
+.banner2-p2{
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
