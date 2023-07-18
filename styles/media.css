@@ -12,6 +12,37 @@
     .nav-link li{
         margin-top: 20px;
     }
+    /* ========================== */
+    .top-banner-container{
+        background-image:none;
+        margin-bottom: 30px;
+    }
+    .top-banner, .top-banner2{
+        flex-direction: column-reverse;
+        margin: 0 20px;  
+    }
+    .top-banner-img{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .top-banner-container2{
+        background-color:white;
+        
+    }
+    .top-banner2 h3{
+        text-align: center;
+    }
+    .banner2-p2{
+        text-align: center;
+    }
+    .button2{
+        display: block;
+        margin: auto;
+    }
+    .top-banner2{
+        flex-direction: column;
+    }
+
 }
 
 /* Tablet view */
@@ -19,4 +50,17 @@
     nav{
         padding:10px 20px;
     }
+    /* ================================ */
+    .top-banner, .top-banner2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 20px;
+        
+    }
+    .banner2-p2{
+        font-size: 1.3rem;
+    }
+
+
 }
