@@ -43,6 +43,15 @@
         flex-direction: column;
     }
 
+    main{
+        margin: 100px 20px;
+    }
+
+    .game-card-div{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+    }
+
 }
 
 /* Tablet view */
@@ -60,6 +69,14 @@
     }
     .banner2-p2{
         font-size: 1.3rem;
+    }
+    /* ============================== */
+    main{
+        margin: 100px 20px;
+    }
+    .game-card-div{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
     }
 
 

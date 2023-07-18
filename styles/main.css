@@ -17,6 +17,10 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+  a{
+    text-decoration: none;
+    color: black;
+} 
 
 /*=================navbar================= */
 
@@ -48,8 +52,6 @@ nav{
     margin-left: 20px;
 }
 .nav-link a{
-    text-decoration: none;
-    color: black;
     font-weight: 500;
 }
 .nav-link a:hover{
@@ -135,5 +137,57 @@ nav{
 .banner2-p2{
     font-size: 1.5rem;
     margin: 20px 0;
+}
+
+
+main{
+    margin: 100px 100px;
+}
+
+/* <!-- Online Games Funny Videos===================== --> */
+.online-games-section{
+    text-align: center;
+}
+.online-games-section h3{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.game-card-div{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 50px;
+    text-align: start;
+}
+.card-img{ 
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.game-img-div{
+    position: relative;
+}
+.play-img{
+    position: absolute;
+    top:40%;
+    left: 40%;
+}
+.watch-now{
+    color: #F948B2;
+    position: absolute;
+    top:56%;
+    left: 36%;
+    
+}
+.game-card:hover .card-img{
+    filter: brightness(40%);
+    
+}
+.hide{
+    display: none;
+}
+.game-card:hover .hide{
+    display: block;
+    
 }
 
