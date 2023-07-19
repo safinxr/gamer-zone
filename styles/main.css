@@ -181,6 +181,9 @@ main{
 }
 .game-card:hover .card-img{
     filter: brightness(40%);
+    border: 3px solid #F948B2;
+    border-radius: 18px;
+    
     
 }
 .hide{
