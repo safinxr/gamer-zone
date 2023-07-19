@@ -85,6 +85,25 @@
         right:-150px;
     
     }
+    /* ============================= */
+    .careers-part{
+        flex-direction: column;
+        padding: 30px 20px;
+        
+    }
+    .career-img{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .section6{
+        margin: 100px 20px;
+    
+    }
+    .s6-card img{
+        width: 30px;
+        margin-right: 10px;
+    }
 
 }
 
@@ -130,6 +149,23 @@
         top: 105px;
         right:-150px;
     
+    }
+    .careers-part{
+        flex-direction: column;
+        padding: 30px 20px;
+        
+    }
+    .career-img{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .section6{
+        margin: 100px 20px;
+    
+    }
+    .s6-card img{
+        width: 40px;
+        margin-right: 10px;
     }
 
 

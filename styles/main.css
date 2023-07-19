@@ -231,3 +231,65 @@ main{
 
 }
 
+
+/* <!-- Careers section =============================--> */
+.careers-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+    background-color: #FF55AE;
+    color: white;
+    
+}
+.text-area h3{
+    font-size: 2rem;
+    margin-bottom: 20px;
+
+}
+.career-points{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.right-div{
+    text-align: end;
+}
+
+.careers-btn{
+background-color: white;
+color: #FF55AE;
+margin-top: 20px;
+}
+
+.career-img{
+    width: 50%;
+}
+
+/* section6==================== */
+.section6{
+    margin: 100px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+.s6-card{
+    display: flex;
+    align-items: center;  
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-weight: 600;
+}
+.s6-card img{
+    width: 50px;
+    margin-right: 10px;
+}
+
+.s6-card:hover{
+    border: 1px solid #FF55AE;
+}
+
