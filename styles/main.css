@@ -293,3 +293,25 @@ margin-top: 20px;
     border: 1px solid #FF55AE;
 }
 
+footer{
+    background-color: #0B0223;
+    color: white;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.footer-p{
+    display: flex;
+    gap: 30px;
+}
+.footer-img{
+    display: flex;
+    gap: 30px;
+}
+.footer-small small{
+    margin: 0 15px;
+    font-size: 0.7rem;
+}
+
