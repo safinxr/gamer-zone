@@ -105,7 +105,7 @@
         margin-right: 10px;
     }
     footer{
-        padding: 100px 20px;
+        padding: 100px 40px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -116,13 +116,24 @@
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
+        gap: 40px;
+        margin-top: 40px;
     }
     .footer-img{
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
+        gap: 20px 60px;
+        padding: 50px 0;
     }
+    .footer-small{
+        margin-right: 30px;
+        margin-bottom:20px ;
+        text-align: center;
+        
+    }
+
 
 }
 
@@ -185,6 +196,10 @@
     .s6-card img{
         width: 40px;
         margin-right: 10px;
+    }
+    footer{
+        padding: 100px 60px;
+
     }
 
 
