@@ -191,3 +191,43 @@ main{
     
 }
 
+/* <!-- section 4======================================= --> */
+
+.section4, .section4-2{
+    margin: 100px 0 150px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section4-img-div{
+    width: 50%;
+    position: relative;
+}
+.section4-text{
+    width: 300px;
+    margin: 0 auto;
+}
+.section4-text h3{
+   font-size: 2.5rem;
+   margin-bottom: 10px;
+}
+
+.main-img{
+    width: 100%;
+    margin-left: auto;
+}
+.sub-img{
+    transform: scale(0.7);
+    position: absolute;
+    top: 320px;
+    left:-150px;
+
+}
+.sub-img2{
+    transform: scale(0.7);
+    position: absolute;
+    top: 280px;
+    right:-150px;
+
+}
+

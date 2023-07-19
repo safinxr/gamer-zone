@@ -51,6 +51,40 @@
         grid-template-columns: repeat(1, 1fr);
         gap: 40px;
     }
+    /* ================================= */
+    .section4{
+        flex-direction: column;
+        text-align: center;
+    }
+    .section4-2{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .section4-text{
+        width: 400px;
+        margin: 0 auto;
+    }
+    .section4-img-div{
+        width: 70%;
+        position: relative;
+    }
+    .main-img{
+        margin-top: 40px;
+    }
+    .sub-img{
+        transform: scale(0.4);
+        position: absolute;
+        top: 90px;
+        left:-150px;
+    
+    }
+    .sub-img2{
+        transform: scale(0.4);
+        position: absolute;
+        top: 75px;
+        right:-150px;
+    
+    }
 
 }
 
@@ -77,6 +111,25 @@
     .game-card-div{
         grid-template-columns: repeat(2, 1fr);
         gap: 40px;
+
+    }
+    /* =================================== */
+    .section4-2{
+        text-align: right;
+    }
+    .sub-img{
+        transform: scale(0.4);
+        position: absolute;
+        top: 150px;
+        left:-150px;
+    
+    }
+    .sub-img2{
+        transform: scale(0.4);
+        position: absolute;
+        top: 105px;
+        right:-150px;
+    
     }
 
 
